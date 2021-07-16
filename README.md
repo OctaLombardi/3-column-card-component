@@ -1,2 +1,2 @@
 # 3-column-card-component
- HTML y CSS responsive desing
+ HTML y CSS responsive design
