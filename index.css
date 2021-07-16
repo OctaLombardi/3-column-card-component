@@ -1,0 +1,106 @@
+#body {
+  width: 100%;
+  height: 800px;
+  font-family: Lexend Deca;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  height: 400px;
+  width: 250px;
+  border-radius: 3px;
+  font-size: small;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: left;
+}
+
+.card1 {
+  background-color: hsl(31, 77%, 52%);
+}
+.card2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.card3 {
+  background-color: hsl(179, 100%, 13%);
+}
+.font-color {
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+#Button1 {
+  background-color: #fafafa;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #f09f54;
+  font-family: Verdana;
+  font-size: 17px;
+  padding: 11px 15px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+#Button1:hover {
+  background-color: #f59518;
+  color: white;
+}
+#Button1:active {
+  position: relative;
+  top: 1px;
+}
+
+#Button2 {
+  background-color: #fafafa;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: hsl(184, 100%, 22%);
+  font-family: Verdana;
+  font-size: 17px;
+  padding: 11px 15px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+#Button2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+}
+#Button2:active {
+  position: relative;
+  top: 1px;
+}
+#Button3 {
+  background-color: #fafafa;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: hsl(179, 100%, 13%);
+  font-family: Verdana;
+  font-size: 17px;
+  padding: 11px 15px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+#Button3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+}
+#Button3:active {
+  position: relative;
+  top: 1px;
+}
+
+@media (max-width: 1024px) {
+  #body {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+}
